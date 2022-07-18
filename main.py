@@ -16,7 +16,7 @@ DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 @bughunter0.on_message(filters.private & filters.text)
 async def start(bot, message):
-    await message.reply_text("Send a video for converting to audio")
+    await message.reply_text("ʜɪ....ɪ ᴀᴍ ᴍᴘ4 ᴛᴏ ᴍᴘ3 ᴄᴏɴᴠᴇᴛᴇʀ ʙᴏᴛ\nSᴇɴᴅ ᴀ ᴠɪᴅᴇᴏ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ɪᴛ ɪɴᴛᴏ ᴀᴜᴅɪᴏ\n ʙʏ @TamilBots\nᴅᴇᴠ @AboutMk  ")
 
 
 @bughunter0.on_message(filters.video & filters.private)
