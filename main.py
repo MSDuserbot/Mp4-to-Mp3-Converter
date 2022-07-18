@@ -16,7 +16,7 @@ DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 @bughunter0.on_message(filters.private & filters.text)
 async def start(bot, message):
-    await message.reply_text("ʜɪ....ɪ ᴀᴍ ᴍᴘ4 ᴛᴏ ᴍᴘ3 ᴄᴏɴᴠᴇᴛᴇʀ ʙᴏᴛ\nSᴇɴᴅ ᴀ ᴠɪᴅᴇᴏ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ɪᴛ ɪɴᴛᴏ ᴀᴜᴅɪᴏ\n ʙʏ @TamilBots\nᴅᴇᴠ @AboutMk  ")
+    await message.reply_text("ʜɪ [👋](https://telegra.ph/file/57873ee2279555866f4c9.jpg) ....\nɪ ᴀᴍ ᴍᴘ4 ᴛᴏ ᴍᴘ3 ᴄᴏɴᴠᴇᴛᴇʀ ʙᴏᴛ\nSᴇɴᴅ ᴀ ᴠɪᴅᴇᴏ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ɪᴛ ɪɴᴛᴏ ᴀᴜᴅɪᴏ\n\n ʙʏ @TamilBots\n\nᴅᴇᴠ @AboutMk  ")
 
 
 @bughunter0.on_message(filters.video & filters.private)
