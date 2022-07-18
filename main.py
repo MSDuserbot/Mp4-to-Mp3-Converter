@@ -16,7 +16,7 @@ DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 @bughunter0.on_message(filters.private & filters.text)
 async def start(bot, message):
-    await message.reply_text("ʜɪ [👋](https://telegra.ph/file/57873ee2279555866f4c9.jpg) ....\nɪ ᴀᴍ ᴍᴘ4 ᴛᴏ ᴍᴘ3 ᴄᴏɴᴠᴇᴛᴇʀ ʙᴏᴛ\nSᴇɴᴅ ᴀ ᴠɪᴅᴇᴏ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ɪᴛ ɪɴᴛᴏ ᴀᴜᴅɪᴏ\n\n ʙʏ @TamilBots\n\nᴅᴇᴠ @AboutMk  ")
+    await message.reply_text("ʜɪ [👋](https://telegra.ph/file/57873ee2279555866f4c9.jpg) ....\nɪ ᴀᴍ ᴍᴘ4 ᴛᴏ ᴍᴘ3 ᴄᴏɴᴠᴇᴛᴇʀ ʙᴏᴛ🤖\nSᴇɴᴅ ᴀ ᴠɪᴅᴇᴏ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ɪᴛ ɪɴᴛᴏ ᴀᴜᴅɪᴏ🎷\n\n ʙʏ @TamilBots 😎\n\nᴅᴇᴠ @AboutMk 👻 ")
 
 
 @bughunter0.on_message(filters.video & filters.private)
@@ -24,13 +24,13 @@ async def mp3(bot, message):
     
     # download video
     file_path = DOWNLOAD_LOCATION + f"{message.from_user.id}.mp3"
-    txt = await message.reply_text("Downloading to My server.....")
+    txt = await message.reply_text("ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛᴏ ᴍʏ sᴇʀᴠᴇʀ.....")
     await message.download(file_path)
-    await txt.edit_text("Downloaded Successfully")
+    await txt.edit_text("ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ sᴜᴄᴇᴇssғᴜʟʟʏ")
     
     # convert to audio
-    await txt.edit_text("Converting to audio")
-    await message.reply_audio(audio=file_path, caption="@BugHunterBots", quote=True)
+    await txt.edit_text("ᴄᴏɴᴠᴇʀᴛɪɴɢ ᴛᴏ ᴀᴜᴅɪᴏ")
+    await message.reply_audio(audio=file_path, caption="@TamilBots 👻", quote=True)
     
     # remove file
     try:
